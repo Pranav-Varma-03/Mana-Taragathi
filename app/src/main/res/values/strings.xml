@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- get_started strings -->
+
+    <string name="app_name">Page 1</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="mana_taragati_string">Mana-Taragati</string>
+    <string name="education_is_not_preparation_of_life__education_is_life_itself_string">Education is not preparation of life; education is life itself</string>
+    <string name="get_started_ek3_string">Get started</string>
+    <string name="well_come_back__string">Welcome \nBack!</string>
+    <string name="email_phone_no_string">Email/Phone no</string>
+    <string name="vector_1">vector_1</string>
+    <string name="vector_1_ek1">vector_1_ek1</string>
+    <string name="login_ek3_string">Login</string>
+    <string name="password_string">Password</string>
+    <string name="get_started_ek4_string">Get started</string>
+    <string name="forget_your_password___string"><u>forgot your password ?</u></string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="get_started">Get Started</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    // Home Page and Menu Page Strings
+
+    <string name="up_coming_class_string">Up coming class</string>
+    <string name="_12_00_string">12.00</string>
+    <string name="ask_a_doubt_string">Ask a doubt</string>
+    <string name="question_string">question</string>
+    <string name="hii__string">hii,</string>
+    <string name="student_name_string">Hi,\nStudent name</string>
+    <string name="announcement___string">Announcement :</string>
+    <string name="dr__a__s__bhardwaj_take_a_guest_lecture_on_30th_feb__12_30_pm_the_most_awated_exam_is_comming_soon_string">Dr. A. S. Bhardwaj take a guest lecture on 30th feb, 12:30 pmThe most awated exam is comming soon</string>
+</resources>

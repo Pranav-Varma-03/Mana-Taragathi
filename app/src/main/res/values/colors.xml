@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- get_started colors -->
+
+	<color name="colorPrimary">#008577</color>
+	<color name="colorPrimaryDark">#00574B</color>
+	<color name="colorAccent">#D81B60</color>
+	<color name="purple_200">#FFBB86FC</color>
+	<color name="purple_500">#FF6200EE</color>
+	<color name="purple_700">#FF3700B3</color>
+	<color name="teal_200">#FF03DAC5</color>
+	<color name="teal_700">#FF018786</color>
+	<color name="black">#FF000000</color>
+	<color name="white">#FFFFFFFF</color>
+
+	<color name="_bg__get_started_ek2_color">#FFFFFF</color>
+	<color name="rectangle_1_color">#ffffff</color>
+	<color name="mana_taragati_color">#200A4E</color>
+	<color name="rectangle_2_color">#E2871D</color>
+	<color name="font_2_color">#B2670E</color>
+
+<!--	Student Home Page Colors-->
+	<color name="_bg__home_page_ek2_color">#FFFFFF</color>
+	<color name="rectangle_47_ek1_color">#E7A778</color>
+	<color name="ask_a_doubt_color">#6C6C6C</color>
+	<color name="rectangle_51_color">#FFE9BF</color>
+	<color name="rectangle_53_color">#D9D9D9</color>
+
+</resources>

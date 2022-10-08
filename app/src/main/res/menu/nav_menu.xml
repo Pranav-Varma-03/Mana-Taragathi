@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+
+    <item
+        android:id="@+id/nav_timetable"
+        android:title="Time Table"
+        android:icon="@drawable/ic_timetable"/>
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_changepwd"
+                android:title="Change Password"
+                android:icon="@drawable/ic_changepwd"
+                />
+            <item
+                android:id="@+id/nav_signout"
+                android:title="Sign Out"
+                android:icon="@drawable/ic_signout"
+                />
+        </menu>
+    </item>
+
+
+
+</menu>

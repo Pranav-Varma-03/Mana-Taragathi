@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout android:id="@+id/page_get_started_ek1"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <!--            <View   android:id="@+id/_bg__get_started_ek2"-->
+        <!--                android:background="@drawable/_bg__get_started_ek2_shape"-->
+        <!--                android:layout_marginStart="0dp"-->
+        <!--                android:layout_marginTop="0dp"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="800dp" />-->
+
+        <View
+            android:id="@+id/rectangle_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/rectangle_1_shape" />
+
+        <TextView
+            android:id="@+id/mana_taragati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginTop="300dp"
+            android:gravity="center"
+            android:text="@string/mana_taragati_string"
+            android:textColor="@color/mana_taragati_color"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/education_is_not_preparation_of_life__education_is_life_itself"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_below="@+id/mana_taragati"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="29dp"
+            android:gravity="center"
+            android:text="@string/education_is_not_preparation_of_life__education_is_life_itself_string"
+            android:textColor="@color/mana_taragati_color"
+            android:textSize="19sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/education_is_not_preparation_of_life__education_is_life_itself"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="99dp"
+            android:layout_marginEnd="29dp">
+
+            <Button
+                android:id="@+id/get_started_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="50dp"
+                android:alpha="0.5"
+                android:background="@drawable/rectangle_2_shape"
+                android:text="@string/get_started"
+                android:textStyle = "bold"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:onClick="Login_Page"/>
+            <!--                <View-->
+            <!--                    android:id="@+id/rectangle_2"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:layout_gravity="center_horizontal|center"-->
+            <!--                    android:layout_marginStart="30dp"-->
+            <!--                    android:layout_marginTop="0dp"-->
+            <!--                    android:layout_marginEnd="30dp"-->
+            <!--                    android:alpha="0.5"-->
+            <!--                    android:background="@drawable/rectangle_2_shape"-->
+            <!--                    android:gravity="center" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/get_started_ek3"-->
+            <!--                    android:layout_width="300dp"-->
+            <!--                    android:layout_height="50dp"-->
+            <!--                    android:layout_gravity="center_horizontal|center"-->
+            <!--                    android:layout_marginStart="-3dp"-->
+            <!--                    android:layout_marginTop="1dp"-->
+            <!--                    android:gravity="center"-->
+            <!--                    android:text="@string/get_started_ek3_string"-->
+            <!--                    android:textColor="#212121"-->
+            <!--                    android:textSize="18sp"-->
+            <!--                    tools:ignore="TextContrastCheck" />-->
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

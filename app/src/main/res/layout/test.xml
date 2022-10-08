@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView android:id="@+id/home_page"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_home_page_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__home_page_ek2"
+                    android:background="@drawable/_bg__home_page_ek2_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="360dp"
+                    android:layout_height="800dp" />
+
+                <View   android:id="@+id/rectangle_1"
+                    android:background="@drawable/rectangle_1_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="360dp"
+                    android:layout_height="800dp" />
+
+                <TextView android:id="@+id/mana_taragati"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/mana_taragati_color"
+                    android:layout_marginLeft="91dp"
+                    android:layout_marginTop="33dp"
+                    android:layout_width="331dp"
+                    android:layout_height="57dp"
+                    android:text="@string/mana_taragati_string"
+                    />
+
+                <View   android:id="@+id/rectangle_3"
+                    android:background="@drawable/rectangle_3_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="735dp"
+                    android:layout_width="360dp"
+                    android:layout_height="65dp" />
+
+                <ImageView android:id="@+id/home"
+                    android:src="@drawable/home"
+                    android:contentDescription="home"
+                    android:layout_marginStart="31.62dp"
+                    android:layout_marginTop="753.58dp"
+                    android:layout_width="31.76dp"
+                    android:layout_height="29.42dp" />
+
+                <ImageView android:id="@+id/result"
+                    android:src="@drawable/result"
+                    android:contentDescription="result"
+                    android:layout_marginStart="300dp"
+                    android:layout_marginTop="753dp"
+                    android:layout_width="25.5dp"
+                    android:layout_height="30dp" />
+
+                <ImageView android:id="@+id/timetable"
+                    android:src="@drawable/timetable"
+                    android:contentDescription="timetable"
+                    android:layout_marginStart="165dp"
+                    android:layout_marginTop="753dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+
+                <RelativeLayout android:id="@+id/notification_tab"
+                    android:layout_marginTop="353dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View   android:id="@+id/rectangle_47"
+                        android:background="@drawable/rectangle_47_shape"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="294dp"
+                        android:layout_height="64dp" />
+
+
+                    <RelativeLayout android:id="@+id/clock_icon"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="247dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <ImageView android:id="@+id/clock_icon_ek1"
+                            android:src="@drawable/clock_icon_ek1"
+                            android:contentDescription="clock_icon_ek1"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp" />
+
+                    </RelativeLayout>
+
+                    <TextView android:id="@+id/up_coming_class"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:textColor="@color/mana_taragati_color"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_width="242dp"
+                        android:layout_height="47dp"
+                        android:text="@string/up_coming_class_string"
+                        />
+
+                    <TextView android:id="@+id/_12_00"
+                        android:textStyle="bold"
+                        android:textColor="@color/mana_taragati_color"
+                        android:layout_marginLeft="250dp"
+                        android:layout_marginTop="37dp"
+                        android:layout_width="40dp"
+                        android:layout_height="28dp"
+                        android:text="@string/_12_00_string"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/ask_doubt_tab"
+                    android:layout_marginTop="443dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View   android:id="@+id/rectangle_47_ek1"
+                        android:background="@drawable/rectangle_47_ek1_shape"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="294dp"
+                        android:layout_height="64dp" />
+
+                    <TextView android:id="@+id/ask_a_doubt"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:textColor="@color/ask_a_doubt_color"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_width="242dp"
+                        android:layout_height="47dp"
+                        android:text="@string/ask_a_doubt_string"
+                        />
+
+
+                    <RelativeLayout android:id="@+id/question_icon"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginStart="247dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <ImageView android:id="@+id/question_icon_ek1"
+                            android:src="@drawable/question_icon_ek1"
+                            android:contentDescription="question_icon_ek1"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp" />
+
+                    </RelativeLayout>
+
+                    <TextView android:id="@+id/question"
+                        android:textStyle="bold"
+                        android:textColor="@color/ask_a_doubt_color"
+                        android:layout_marginLeft="239dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_width="60dp"
+                        android:layout_height="28dp"
+                        android:text="@string/question_string"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/avtar"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginStart="291.5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView android:id="@+id/avtar_icon"
+                        android:src="@drawable/avtar_icon"
+                        android:contentDescription="avtar_icon"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp" />
+
+                </RelativeLayout>
+
+                <ImageView android:id="@+id/menu_icon"
+                    android:src="@drawable/menu_icon"
+                    android:contentDescription="menu_icon"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginTop="38dp"
+                    android:layout_width="30dp"
+                    android:layout_height="28dp" />
+
+                <TextView android:id="@+id/hii_"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/mana_taragati_color"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_width="54dp"
+                    android:layout_height="45dp"
+                    android:text="@string/hii__string"
+                    />
+
+                <TextView android:id="@+id/student_name"
+                    android:textSize="18sp"
+                    android:textColor="@color/mana_taragati_color"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginTop="109dp"
+                    android:layout_width="152dp"
+                    android:layout_height="40dp"
+                    android:text="@string/student_name_string"
+                    />
+
+                <View   android:id="@+id/rectangle_51"
+                    android:background="@drawable/rectangle_51_shape"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="549dp"
+                    android:layout_width="294dp"
+                    android:layout_height="156dp" />
+
+                <TextView android:id="@+id/announcement__"
+                    android:textSize="16sp"
+                    android:textColor="@color/mana_taragati_color"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginTop="561dp"
+                    android:layout_width="178dp"
+                    android:layout_height="37dp"
+                    android:text="@string/announcement___string"
+                    />
+
+                <TextView android:id="@+id/dr__a__s__bhardwaj_take_a_guest_lecture_on_30th_feb__12_30_pm_the_most_awated_exam_is_comming_soon"
+                    android:textSize="16sp"
+                    android:textColor="@color/mana_taragati_color"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="580dp"
+                    android:layout_width="290dp"
+                    android:layout_height="125dp"
+                    android:text="@string/dr__a__s__bhardwaj_take_a_guest_lecture_on_30th_feb__12_30_pm_the_most_awated_exam_is_comming_soon_string"
+                    />
+
+                <View   android:id="@+id/rectangle_53"
+                    android:background="@drawable/rectangle_53_shape"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="41dp"
+                    android:layout_width="18dp"
+                    android:layout_height="20dp" />
+
+
+                <RelativeLayout android:id="@+id/component_2"
+                    android:layout_marginTop="155dp"
+                    android:layout_marginStart="34dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView android:id="@+id/door_bot_1"
+                        android:src="@drawable/door_bot_1"
+                        android:contentDescription="door_bot_1"
+                        android:layout_marginStart="91dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="109dp"
+                        android:layout_height="171dp" />
+
+                    <ImageView android:id="@+id/door_bot_2_1"
+                        android:src="@drawable/door_bot_2_1"
+                        android:contentDescription="door_bot_2_1"
+                        android:layout_marginStart="711dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="55dp"
+                        android:layout_height="171dp" />
+
+                    <ImageView android:id="@+id/door_bot_1_1"
+                        android:src="@drawable/door_bot_1_1"
+                        android:contentDescription="door_bot_1_1"
+                        android:layout_marginStart="-9dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="54dp"
+                        android:layout_height="171dp" />
+
+                    <ImageView android:id="@+id/door_bot_3"
+                        android:src="@drawable/door_bot_3"
+                        android:contentDescription="door_bot_3"
+                        android:layout_marginStart="246dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="109dp"
+                        android:layout_height="171dp" />
+
+                    <ImageView android:id="@+id/door_bot_4"
+                        android:src="@drawable/door_bot_4"
+                        android:contentDescription="door_bot_4"
+                        android:layout_marginStart="401dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="109dp"
+                        android:layout_height="171dp" />
+
+                    <ImageView android:id="@+id/door_bot_5"
+                        android:src="@drawable/door_bot_5"
+                        android:contentDescription="door_bot_5"
+                        android:layout_marginStart="556dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="109dp"
+                        android:layout_height="171dp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

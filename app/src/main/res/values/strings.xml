@@ -2,7 +2,7 @@
 <resources>
     <!-- get_started strings -->
 
-    <string name="app_name">Page 1</string>
+    <string name="app_name"></string>
     <string name="ek_img_content">ExportKit Image</string>
     <string name="mana_taragati_string">Mana-Taragati</string>
     <string name="education_is_not_preparation_of_life__education_is_life_itself_string">Education is not preparation of life; education is life itself</string>
@@ -42,4 +42,9 @@
     <string name="dr__a__s__bhardwaj_take_a_guest_lecture_on_30th_feb__12_30_pm_the_most_awated_exam_is_comming_soon_string">Dr. A. S. Bhardwaj take a guest lecture on 30th feb, 12:30 pmThe most awated exam is comming soon</string>
     <string name="todayClasses"> Maths = 4pm to 5pm\nPhy = 4pm to 5pm\nChe = 4pm to 5pm</string>
     <string name="todayExams">1)Today Exam : \nMaths = 4pm to 5pm\n2)Today Exam : \nPhy = 4pm to 5pm\n3)Today Exam : \nChe = 4pm to 5pm</string>
+    <string name="announcement">Announcement</string>
+    <string name="notes">Notes</string>
+    <string name="class_lecture_recordings">Class Lecture Recordings</string>
+    <string name="exam">Exam</string>
+    <string name="ask_a_doubt">Ask a Doubt ?</string>
 </resources>

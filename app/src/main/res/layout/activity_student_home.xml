@@ -46,9 +46,10 @@
 
                 </androidx.recyclerview.widget.RecyclerView>
 
-                <EditText   android:id="@+id/todayClass"
+                <TextView   android:id="@+id/todayClass"
                     android:background="@drawable/rectangle_47_shape"
                     android:text="Today's Classes :"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:padding="20dp"
                     android:layout_marginStart="30dp"
@@ -82,11 +83,12 @@
                     android:textStyle="italic"
                     android:padding="10dp"/>
 
-                <EditText   android:id="@+id/todayExam"
+                <TextView   android:id="@+id/todayExam"
                     android:background="@drawable/rectangle_47_shape"
                     android:text="Today's Exams :"
                     android:textStyle="bold"
                     android:padding="20dp"
+                    android:textSize="20sp"
                     android:layout_marginStart="30dp"
                     android:layout_marginEnd="30dp"
                     android:layout_marginTop="20dp"
@@ -133,7 +135,7 @@
 <!--            android:text="@string/student_home"/>-->
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
             app:layout_constraintBottom_toBottomOf="parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -145,7 +147,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:alpha="0.75"/>
 
                 <ImageButton
                     android:id="@+id/homeButton_student"

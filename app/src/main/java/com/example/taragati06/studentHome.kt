@@ -1,8 +1,10 @@
 package com.example.taragati06
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -53,14 +55,23 @@ class studentHome : AppCompatActivity(),subjectClicked {
     }
     private fun fetchData() : ArrayList<String>{
         val list = ArrayList<String>()
-        for(i in 0 until 5){
-            list.add("Subject $i")
-        }
+        list.add("Mathematics")
+        list.add("Physics")
+        list.add("Chemistry")
+        list.add("Biology")
+        list.add("Telugu")
+        list.add("Hindi")
+        list.add("English")
         return list
     }
 
     override fun onItemClicked(item: String) {
-        Toast.makeText(this,"clicked subject is $item"  ,Toast.LENGTH_LONG).show()
+        var subName :String = item
+
+        val intent = Intent(this, inside_subject::class.java)
+        intent.putExtra(inside_subject.NAME_EXTRA, subName)
+        startActivity(intent)
+
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

@@ -39,6 +39,14 @@ class subjectStudentHomeAdapter(private val items: ArrayList<String>,private val
 //    }
 }
 
+class subjectViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    val titleView: TextView = itemView.findViewById(R.id.title)
+}
+
+interface subjectClicked {
+    fun onItemClicked(item: String)
+}
+
 //class NewsListAdapter(private val listener: subjectClicked): RecyclerView.Adapter<subjectViewHolder>() {
 //
 //    private val items: ArrayList<News> = ArrayList()
@@ -65,10 +73,3 @@ class subjectStudentHomeAdapter(private val items: ArrayList<String>,private val
 //
 //}
 
-class subjectViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-    val titleView: TextView = itemView.findViewById(R.id.title)
-}
-
-interface subjectClicked {
-    fun onItemClicked(item: String)
-}

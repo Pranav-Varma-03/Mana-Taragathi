@@ -3,13 +3,19 @@ package com.example.taragati06
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.navigation.NavigationView
 
-class studentHome : AppCompatActivity() {
+class studentHome : AppCompatActivity(),subjectClicked {
 
+
+    private lateinit var recyclerView: RecyclerView
+//    private lateinit var subjectAdapter:subjectStudentHomeAdapter
     lateinit var toggle :  ActionBarDrawerToggle
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,17 +37,39 @@ class studentHome : AppCompatActivity() {
             }
             true
         }
+
+        init()
+
+    }
+
+    private fun init(){
+        recyclerView =findViewById(R.id.recyclerView)
+        recyclerView.setHasFixedSize(true)
+        recyclerView.layoutManager = LinearLayoutManager(this,RecyclerView.HORIZONTAL,false)
+        val items = fetchData()
+        val adapter: subjectStudentHomeAdapter = subjectStudentHomeAdapter(items,this)
+        recyclerView.adapter= adapter
+
+    }
+    private fun fetchData() : ArrayList<String>{
+        val list = ArrayList<String>()
+        for(i in 0 until 5){
+            list.add("Subject $i")
+        }
+        return list
+    }
+
+    override fun onItemClicked(item: String) {
+        Toast.makeText(this,"clicked subject is $item"  ,Toast.LENGTH_LONG).show()
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
         if(toggle.onOptionsItemSelected(item)){
 
-
             return true
         }
         return super.onOptionsItemSelected(item)
     }
-
 
 }

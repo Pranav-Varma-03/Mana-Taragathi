@@ -40,4 +40,6 @@
     <string name="student_name_string">Hi,\nStudent name</string>
     <string name="announcement___string">Announcement :</string>
     <string name="dr__a__s__bhardwaj_take_a_guest_lecture_on_30th_feb__12_30_pm_the_most_awated_exam_is_comming_soon_string">Dr. A. S. Bhardwaj take a guest lecture on 30th feb, 12:30 pmThe most awated exam is comming soon</string>
+    <string name="todayClasses"> Maths = 4pm to 5pm\nPhy = 4pm to 5pm\nChe = 4pm to 5pm</string>
+    <string name="todayExams">1)Today Exam : \nMaths = 4pm to 5pm\n2)Today Exam : \nPhy = 4pm to 5pm\n3)Today Exam : \nChe = 4pm to 5pm</string>
 </resources>

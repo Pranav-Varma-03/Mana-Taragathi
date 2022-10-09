@@ -11,13 +11,13 @@ import android.view.ViewGroup
 
 //import com.bumptech.glide.Glide
 
-class announcementAdapter(private val items: ArrayList<String>, private val listener: announcementClicked) : RecyclerView.Adapter<announcementViewHolder>() {
+class notesAdapter(private val items: ArrayList<String>, private val listener: notesClicked) : RecyclerView.Adapter<notesViewHolder>() {
 
 
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): announcementViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.announcement_student_recycler, parent, false)
-        val viewHolder = announcementViewHolder(view)
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): notesViewHolder {
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.notes_student_recycler, parent, false)
+        val viewHolder = notesViewHolder(view)
         view.setOnClickListener{
             listener.onItemClicked(items[viewHolder.adapterPosition])
         }
@@ -28,7 +28,7 @@ class announcementAdapter(private val items: ArrayList<String>, private val list
         return items.size
     }
 
-    override fun onBindViewHolder(holder: announcementViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: notesViewHolder, position: Int) {
         val currentItem = items[position]
         holder.titleView.text = currentItem
     }
@@ -42,10 +42,10 @@ class announcementAdapter(private val items: ArrayList<String>, private val list
 //    }
 }
 
-class announcementViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-    val titleView: TextView = itemView.findViewById(R.id.announcementMatter)
+class notesViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    val titleView: TextView = itemView.findViewById(R.id.notesHeading)
 }
 
-interface announcementClicked {
+interface notesClicked {
     fun onItemClicked(item: String)
 }

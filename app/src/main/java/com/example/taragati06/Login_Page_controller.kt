@@ -25,6 +25,12 @@ class Login_Page_controller : AppCompatActivity() {
         val password = passwordInput.text.toString()
 
         val intent = Intent(this, studentHome::class.java)
-        startActivity(intent)
+
+        if(email == "test" && password == "test") {
+            startActivity(intent)
+        }
+        else{
+            Toast.makeText(this, "Invalid Credentials! \n Please try again..", Toast.LENGTH_SHORT).show()
+        }
     }
 }

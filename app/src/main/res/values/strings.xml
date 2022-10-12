@@ -48,4 +48,5 @@
     <string name="exam">Exam</string>
     <string name="ask_a_doubt">Ask a Doubt ?</string>
     <string name="announcementMatter">Today class has been cancelled</string>
+    <string name="save">Save</string>
 </resources>
